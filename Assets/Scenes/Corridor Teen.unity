@@ -352,6 +352,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1435768943}
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: nextLevelName
+      value: Target Room Teen
+      objectReference: {fileID: 0}
     - target: {fileID: 6203929104415066359, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_Name
       value: Door_Main
@@ -409,6 +417,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1435768943}
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: nextLevelName
+      value: Target Room Teen
+      objectReference: {fileID: 0}
     - target: {fileID: 6203929104415066359, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_Name
       value: Door_Main (1)
@@ -2105,6 +2121,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+--- !u!1 &1435768943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2234740550154332502, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+  m_PrefabInstance: {fileID: 1435768942}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1454266282
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/gallery.unity
     guid: 3361ffc744330bf48b2728051024a3f2
+  - enabled: 1
+    path: Assets/Scenes/Corridor Teen.unity
+    guid: 4bd536907965cda43b0e071131c40669
+  - enabled: 1
+    path: Assets/Scenes/Corridor Kid.unity
+    guid: 13de82d30beccc149b07124f0de2b153
+  - enabled: 1
+    path: Assets/Scenes/Corridor Adult.unity
+    guid: 65066ca7867f66546aec0170c5a66709
+  - enabled: 1
+    path: Assets/Scenes/Target Room Adult.unity
+    guid: 7f249583457e6f944b5789b443ebe3dc
+  - enabled: 1
+    path: Assets/Scenes/Target Room Kid.unity
+    guid: 751bec5ea9527e0439ea0cd0b766c3da
+  - enabled: 1
+    path: Assets/Scenes/Target Room Teen.unity
+    guid: b2470426e11c118459d190e4f847a06c
+  - enabled: 1
+    path: Assets/Scenes/Therapy.unity
+    guid: c0b7d2b77184b0c4cb5030d9bfe4e7d1
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: db8318acabcc55e4e9fabb6dc459a9f2, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

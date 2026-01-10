@@ -1176,6 +1176,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+--- !u!1 &1363176893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2234740550154332502, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+  m_PrefabInstance: {fileID: 1363176892}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1717443309
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1525,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1363176893}
+    - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: nextLevelName
+      value: Target Room Kid
+      objectReference: {fileID: 0}
     - target: {fileID: 5555248236890007842, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_CastShadows
       value: 0
