@@ -3,7 +3,7 @@ using UnityEngine;
 public class Indicator_Spinner : MonoBehaviour
 {
     public float SpinSpeed = 5;
-    public Vector2 SpinAxis;
+    public Vector3 SpinAxis;
     
     void Awake()
     {
@@ -12,6 +12,6 @@ public class Indicator_Spinner : MonoBehaviour
 
     void Update()
     {
-        
+        transform.Rotate(SpinAxis * SpinSpeed * Time.deltaTime);
     }
 }
