@@ -19,7 +19,7 @@ public class KeyTracker : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject); // Destroy duplicate
+            Destroy(gameObject); 
         }
     }
     

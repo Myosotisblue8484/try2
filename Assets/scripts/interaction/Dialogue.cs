@@ -117,6 +117,6 @@ public class Dialogue : MonoBehaviour
         _actionMapPlayer.Enable();
         
         
-        Debug.Log("Dialogue End");
+        //Debug.Log("Dialogue End");
     }
 }

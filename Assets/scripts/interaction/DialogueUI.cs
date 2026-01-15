@@ -13,9 +13,8 @@ public class DialogueUI : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("[DialogueUI] Awake() aufgerufen");
+        //Debug.Log("[DialogueUI] Awake() aufgerufen");
 
-        // Singleton
         if (instance != null && instance != this)
         {
             Debug.LogWarning("[DialogueUI] Zweite Instanz gefunden → wird zerstört");
