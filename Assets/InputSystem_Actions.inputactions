@@ -8,9 +8,9 @@
             "actions": [
                 {
                     "name": "Move",
-                    "type": "Value",
+                    "type": "Button",
                     "id": "351f2ccd-1f9f-44bf-9bec-d62ac5c5f408",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -55,6 +55,15 @@
                     "name": "PauseMenu",
                     "type": "Button",
                     "id": "cae0fb16-2201-4e1d-a9c6-75dbf131ab37",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "P",
+                    "type": "Button",
+                    "id": "a568ba48-ecb4-4def-bbbd-a71f9bc39069",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -312,6 +321,17 @@
                     "processors": "",
                     "groups": ";Gamepad",
                     "action": "PauseMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "031d0af8-293f-4434-a1e1-e454c6315faa",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "P",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

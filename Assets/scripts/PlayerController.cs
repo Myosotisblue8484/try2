@@ -50,6 +50,11 @@ public class PlayerController : MonoBehaviour
             speed = walkSpeed;
         }
     }
+
+    public void OnP(InputAction.CallbackContext context)
+    {
+        Application.Quit();
+    }
     
     void Update()
     {
