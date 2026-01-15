@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 2053178005}
     - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: nextLevelName
-      value: Therapy
+      value: gallery Ending
       objectReference: {fileID: 0}
     - target: {fileID: 6203929104415066359, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_Name

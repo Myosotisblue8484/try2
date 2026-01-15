@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelEndTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 2750172139284419459, guid: 0a55cfafd98fcdd44805a2d7cb31615b, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4346957827850381698, guid: 0a55cfafd98fcdd44805a2d7cb31615b, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.0001001
