@@ -248,6 +248,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1526270307835499774, guid: 7cf34494d3f0b224d87692a96d8e6291, type: 3}
   m_PrefabInstance: {fileID: 75759483}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &77957512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 77957514}
+  - component: {fileID: 77957513}
+  m_Layer: 0
+  m_Name: DoorOpener
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &77957513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77957512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2715cd69b2bc9d45870a559075ecd50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeyTrackerStatic
+  Door_Teen: {fileID: 538860205}
+  Door_Adult: {fileID: 680334773}
+--- !u!4 &77957514
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 77957512}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.29962, y: 0, z: 8.44035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &106144310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1186,6 +1232,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1946687279251434513, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+      propertyPath: speed
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 2234740550154332502, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
       propertyPath: m_Name
       value: The Cooler Player
@@ -1298,9 +1348,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8355422444538652698, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 7531657248756123896, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
@@ -1745,6 +1798,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 244133714399122657, guid: 6341ccf02d291de41a0631a21a75d16e, type: 3}
   m_PrefabInstance: {fileID: 481771958}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &538860205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5418434578253330148, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+  m_PrefabInstance: {fileID: 1435016997}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &550520406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1993,6 +2051,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3175104725158103231, guid: 5f43945db56683248a8a10670338abff, type: 3}
   m_PrefabInstance: {fileID: 1054941578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &581065030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581065031}
+  - component: {fileID: 581065032}
+  m_Layer: 0
+  m_Name: KeyTracker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581065031
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581065030}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &581065032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581065030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52de5133e8d57134b8bf8eb172657fc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeyTracker
+  Keys: 0
+  KeyAmount: 0
 --- !u!1001 &598312061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2431,6 +2535,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 244133714399122657, guid: 6341ccf02d291de41a0631a21a75d16e, type: 3}
   m_PrefabInstance: {fileID: 669415979}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &680334773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5418434578253330148, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+  m_PrefabInstance: {fileID: 1376933412}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &696059247
 PrefabInstance:
@@ -9184,6 +9293,10 @@ PrefabInstance:
       propertyPath: nextLevelName
       value: Corridor Adult
       objectReference: {fileID: 0}
+    - target: {fileID: 5418434578253330148, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6203929104415066359, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_Name
       value: Door_Main (2)
@@ -9501,6 +9614,10 @@ PrefabInstance:
     - target: {fileID: 1032301235116956817, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: nextLevelName
       value: Corridor Teen
+      objectReference: {fileID: 0}
+    - target: {fileID: 5418434578253330148, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6203929104415066359, guid: ae06be309eda800448fca2dccaa1df56, type: 3}
       propertyPath: m_Name
@@ -11618,8 +11735,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918248743}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 481.5383, y: 260.71988, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 470.62607, y: 320.45383, z: 12.05511}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12806,5 +12923,7 @@ SceneRoots:
   - {fileID: 1376933412}
   - {fileID: 835207492}
   - {fileID: 263398596}
-  - {fileID: 1918248745}
   - {fileID: 971157562}
+  - {fileID: 581065031}
+  - {fileID: 1918248745}
+  - {fileID: 77957514}

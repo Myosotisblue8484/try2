@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
+    [SerializeField] private float speed;
     [SerializeField] private float gravity = -30f; //-9.81f
     Vector3 verticalVelocity = Vector3.zero;
 
@@ -53,7 +53,15 @@ public class PlayerController : MonoBehaviour
         verticalVelocity.y += gravity * Time.deltaTime;
         controller.Move(verticalVelocity * Time.deltaTime);
 
-        
+        if (Input.GetKeyDown(KeyCode.Period))
+        {
+            speed = 20;
+        }
+
+        if (Input.GetKeyUp(KeyCode.Period))
+        {
+            speed = 5;
+        }
         
     }
 }
