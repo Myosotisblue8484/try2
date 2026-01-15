@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43b68f602568a1544afbc7515db6ec29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 5
   gravity: -30
   cam: {fileID: 7758693202734313164}
   sensitivity: 10

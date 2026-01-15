@@ -3,7 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float walkSpeed;
+    [SerializeField] private float sprintSpeed;
+    private float speed;
     [SerializeField] private float gravity = -30f; //-9.81f
     Vector3 verticalVelocity = Vector3.zero;
 
@@ -16,9 +18,11 @@ public class PlayerController : MonoBehaviour
     private Vector3 lookInput;
     private Vector3 velocity;
     private float pitch;
+    private float sprintMultiplier;
     
     void Start()
     {
+        speed = walkSpeed;
         controller = GetComponent<CharacterController>();   
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -33,6 +37,18 @@ public class PlayerController : MonoBehaviour
     {
         lookInput = context.ReadValue<Vector2>();
         //Debug.Log($"Are you looking Son? {lookInput}");
+    }
+
+    public void OnSprint(InputAction.CallbackContext context)
+    {
+        if (context.ReadValue<float>() > 0f)
+        {
+            speed = sprintSpeed;
+        }
+        else
+        {
+            speed = walkSpeed;
+        }
     }
     
     void Update()
@@ -53,15 +69,7 @@ public class PlayerController : MonoBehaviour
         verticalVelocity.y += gravity * Time.deltaTime;
         controller.Move(verticalVelocity * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Period))
-        {
-            speed = 20;
-        }
-
-        if (Input.GetKeyUp(KeyCode.Period))
-        {
-            speed = 5;
-        }
+        
         
     }
 }
