@@ -51,10 +51,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void OnP(InputAction.CallbackContext context)
-    {
-        Application.Quit();
-    }
+    //public void OnP(InputAction.CallbackContext context)
+    //{
+    //    this.transform.position.y += 20f;
+//
+    //}
     
     void Update()
     {
