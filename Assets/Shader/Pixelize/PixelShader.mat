@@ -37,8 +37,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _BrightnessMask: 1.56
-    - _PixelSize: 0.1
+    - _BrightnessMask: 3.86
+    - _PixelSize: 4
     - _value: 1.6
     m_Colors:
     - _Color_Tint: {r: 1, g: 1, b: 1, a: 0}
