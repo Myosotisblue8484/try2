@@ -50,12 +50,6 @@ public class PlayerController : MonoBehaviour
             speed = walkSpeed;
         }
     }
-
-    //public void OnP(InputAction.CallbackContext context)
-    //{
-    //    this.transform.position.y += 20f;
-//
-    //}
     
     void Update()
     {
