@@ -2690,6 +2690,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5096381591390801031, guid: c7d9395cc88b85a43addfc411abe99b5, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6265299634515589096, guid: c7d9395cc88b85a43addfc411abe99b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2737,6 +2741,10 @@ PrefabInstance:
     - target: {fileID: 7105546338784508587, guid: c7d9395cc88b85a43addfc411abe99b5, type: 3}
       propertyPath: m_Radius
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105546338784508587, guid: c7d9395cc88b85a43addfc411abe99b5, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
