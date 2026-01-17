@@ -4,11 +4,9 @@ using UnityEngine;
 public class KeyTracker : MonoBehaviour
 {
     public int Keys;
-
     public int KeyAmount;
     
     public static KeyTracker Instance;
-
 
     private void Awake()
     {
@@ -26,9 +24,5 @@ public class KeyTracker : MonoBehaviour
     public void Update()
     {
         KeyAmount = Keys;
-        
-        
     }
-    
-    
 }

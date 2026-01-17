@@ -7,14 +7,7 @@ public class KeyTrackerStatic : MonoBehaviour
     public GameObject Door_Teen;
     public GameObject Door_Adult; 
     
-    void Awake()
-    {
-        //Door_Teen = GameObject.FindWithTag("DoorTeen");
-        //Door_Adult = GameObject.FindWithTag("DoorAdult");
-        
-
-    }
-
+    
     private void FixedUpdate()
     {
         OpenDoors();
