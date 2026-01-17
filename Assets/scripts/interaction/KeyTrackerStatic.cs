@@ -17,12 +17,12 @@ public class KeyTrackerStatic : MonoBehaviour
     {
         if (KeyTracker.Instance == null) return;
         
-        if (KeyTracker.Instance.KeyAmount == 1)
+        if (KeyTracker.Instance.KeyAmount >= 1)
         {
             Door_Teen.SetActive(true);
         }
 
-        if (KeyTracker.Instance.KeyAmount == 2)
+        if (KeyTracker.Instance.KeyAmount >= 2)
         {
             Door_Adult.SetActive(true);
             Door_Teen.SetActive(true);
