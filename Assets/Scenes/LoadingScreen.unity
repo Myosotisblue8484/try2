@@ -556,7 +556,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3d442d0f263a8447afe051addd421c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Async_Loader
-  loadingTime: 2
+  loadingTime: 3
 --- !u!4 &2037530605
 Transform:
   m_ObjectHideFlags: 0
