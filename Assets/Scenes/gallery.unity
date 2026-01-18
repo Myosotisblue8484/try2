@@ -1252,22 +1252,6 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3668006858982932388, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
-      propertyPath: m_ActionEvents.Array.size
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668006858982932388, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
-      propertyPath: m_ActionEvents.Array.data[19].m_ActionId
-      value: a568ba48-ecb4-4def-bbbd-a71f9bc39069
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668006858982932388, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
-      propertyPath: m_ActionEvents.Array.data[19].m_ActionName
-      value: 'Player/P[/Keyboard/p]'
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668006858982932388, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
-      propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3668006858982932388, guid: e860e022f4712294bbd146b8d507e9ba, type: 3}
       propertyPath: m_ActionEvents.Array.data[19].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 0
       objectReference: {fileID: 0}
